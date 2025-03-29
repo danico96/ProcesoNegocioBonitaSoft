@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
   <users>
     <user userName="william.jobs">
       <firstName>William</firstName>
       <lastName>Jobs</lastName>
       <title>Mr</title>
       <jobTitle>Chief Executive Officer</jobTitle>
+      <personalData/>
       <professionalData>
         <email>william.jobs@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -31,6 +33,7 @@
       <title>Mrs</title>
       <jobTitle>Compensation specialist</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>april.sanchez@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -56,6 +59,7 @@
       <title>Mrs</title>
       <jobTitle>Human resource manager</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>helen.kelly@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -81,6 +85,7 @@
       <title>Mr</title>
       <jobTitle>Human resources benefits</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>walter.bates@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -106,6 +111,7 @@
       <title>Mr</title>
       <jobTitle>Chief Financial Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>zachary.williamson@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -131,6 +137,7 @@
       <title>Mr</title>
       <jobTitle>Financial controller</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>patrick.gardenier@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -156,6 +163,7 @@
       <title>Mrs</title>
       <jobTitle>Accountant</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>virginie.jomphe@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -181,6 +189,7 @@
       <title>Mr</title>
       <jobTitle>Financial planning manager</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>thorsten.hartmann@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -206,6 +215,7 @@
       <title>Mr</title>
       <jobTitle>Infrastucture specialist</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>jan.fisher@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -231,6 +241,7 @@
       <title>Mrs</title>
       <jobTitle>Product marketing manager</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>isabel.bleasdale@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -256,6 +267,7 @@
       <title>Mr</title>
       <jobTitle>Vice President of Marketing</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>favio.riviera@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -281,6 +293,7 @@
       <title>Mr</title>
       <jobTitle>Chief Technical Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>michael.morrison@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -306,6 +319,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>marc.marseau@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -331,6 +345,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>joseph.hovell@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -356,6 +371,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>mauro.zetticci@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -381,6 +397,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>thomas.wallis@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -406,6 +423,7 @@
       <title>Mrs</title>
       <jobTitle>Vice President of Sales</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>daniela.angelo@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -431,6 +449,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>anthony.nichols@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -456,6 +475,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>misa.kumagai@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -481,6 +501,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>norio.yamazaki@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -506,6 +527,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>giovanna.almeida@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -525,11 +547,131 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
+    <user userName="admision.curatio">
+      <firstName>Admision</firstName>
+      <lastName>Curatio</lastName>
+      <title>Sr</title>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>admisiones@curatio.som</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="medico.urgencias1">
+      <firstName>Medico</firstName>
+      <lastName>Urgencias1</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>medico_urgencias1@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="medico.urgencias3">
+      <firstName>Medico</firstName>
+      <lastName>Urgencias3</lastName>
+      <title></title>
+      <personalData/>
+      <professionalData>
+        <email>medico_urgencias3@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="medicourgencias2">
+      <firstName>Medico</firstName>
+      <lastName>Urgencias2</lastName>
+      <personalData/>
+      <professionalData>
+        <email>medico_urgencias2@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="medico.especialista">
+      <firstName>Medico</firstName>
+      <lastName>Especialista</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>medico_especialista@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="laboratorista">
+      <firstName>Laboratorista</firstName>
+      <personalData/>
+      <professionalData>
+        <email>laboratorista@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="camilleros">
+      <firstName>Camilleros</firstName>
+      <personalData/>
+      <professionalData>
+        <email>camilleros@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="imagenes.diagnosticas">
+      <firstName>Imagenes</firstName>
+      <lastName>Diagnosticas</lastName>
+      <personalData/>
+      <professionalData>
+        <email>imagenes_diagnosticas@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="cirugia">
+      <firstName>Cirugia</firstName>
+      <personalData/>
+      <professionalData>
+        <email>cirugia@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
       <displayName>Member</displayName>
       <description></description>
+    </role>
+    <role name="admision">
+      <displayName>Admisiones</displayName>
+      <description>Personal de admisiones</description>
+    </role>
+    <role name="medicoUrgencias">
+      <displayName>MedicoUrgencias</displayName>
+      <description>Personal de medicina para el &#xe1;rea de urgencias</description>
+    </role>
+    <role name="medicoEspecialista">
+      <displayName>MedicoEspecialista</displayName>
+      <description>Personal m&#xe9;dico especialista de la cl&#xed;nica</description>
+    </role>
+    <role name="laboratorista">
+      <displayName>Laboratorista</displayName>
+      <description>Personal de laboratorio cl&#xed;nico</description>
+    </role>
+    <role name="imagenesDiagnosticas">
+      <displayName>Im&#xe1;genesDiagn&#xf3;sticas</displayName>
+      <description>Personal de im&#xe1;genes diagn&#xf3;sticas de la cl&#xed;nica</description>
+    </role>
+    <role name="camilleros">
+      <displayName>Camilleros</displayName>
+      <description>Personal de traslados de la cl&#xed;nica</description>
+    </role>
+    <role name="cirugia">
+      <displayName>Cirugia</displayName>
+      <description>Personal de cirug&#xed;a de la cl&#xed;nica</description>
     </role>
   </roles>
   <groups>
@@ -711,6 +853,51 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>admision.curatio</userName>
+      <roleName>admision</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>medico.urgencias1</userName>
+      <roleName>medicoUrgencias</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>medico.urgencias3</userName>
+      <roleName>medicoUrgencias</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>medicourgencias2</userName>
+      <roleName>medicoUrgencias</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>medico.especialista</userName>
+      <roleName>medicoEspecialista</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>laboratorista</userName>
+      <roleName>laboratorista</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>camilleros</userName>
+      <roleName>camilleros</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>imagenes.diagnosticas</userName>
+      <roleName>imagenesDiagnosticas</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>cirugia</userName>
+      <roleName>cirugia</roleName>
+      <groupName>acme</groupName>
     </membership>
   </memberships>
 </organization:Organization>
