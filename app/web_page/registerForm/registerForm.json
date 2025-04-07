@@ -1,10 +1,10 @@
 {
-  "id" : "registroPaciente",
-  "name" : "registroPaciente",
+  "id" : "registerForm",
+  "name" : "registerForm",
   "type" : "form",
-  "uuid" : "5983566c-c205-4ace-a65c-d67b8272377d",
+  "uuid" : "bc10a667-6d3a-4f7a-8fbf-26b5eb260812",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1743994086831,
+  "lastUpdate" : 1743991461165,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "94bf1ab4-8a8f-44b7-baa3-c7cf51ea61d9",
+        "reference" : "25fa116d-1dbb-4762-a679-4c3f35341f3e",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Datos del Paciente"
+                  "value" : "{{ task.displayName }}"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -51,13 +51,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
                 }
               },
-              "reference" : "2d7d2dc3-6a4b-46ba-bb0a-2d2183d55027",
+              "reference" : "8f698792-278e-4074-8eda-101e531a99f6",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -94,7 +90,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Digite los datos del paciente"
+                  "value" : "{{ task.displayDescription }}"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -103,21 +99,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
                 }
               },
-              "reference" : "0d43673d-e625-426c-b8b1-2690a944149a",
+              "reference" : "0c44a3b3-7a62-4db4-bf1c-259dca6f336b",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -133,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "165c5361-bf08-4714-b155-45e35bad249b",
+        "reference" : "67e537e3-51ea-4474-874d-1023e150d1b8",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -142,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "89a8715f-7461-40ac-8087-42272ca0616b",
+          "reference" : "c189f8f8-cffa-437e-b021-001dbc642863",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -179,13 +163,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
                   }
                 },
-                "reference" : "17e9ef4b-4db6-4706-851c-0ecd60126c85",
+                "reference" : "833f147d-e568-4c58-a40e-c51b2905c51b",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -217,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c20c3f96-11ed-45c0-be4c-51c016257d9d",
+                "reference" : "49c75f76-e2d0-494d-b50e-03477a0b06c5",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -229,362 +209,6 @@
                         "sm" : 12,
                         "xs" : 12,
                         "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Nombre Paciente"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pacienteInput.nombrePaciente"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "f6d7ca56-e393-4d2c-8fa5-63ff96317ff1",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 6,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 6
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Numero Documento Identificacion"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "number"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pacienteInput.identificacionPaciente"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "33c08bde-c5d0-4cd8-b805-f8e4cddec1b3",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    },
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 6,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 6
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Edad Paciente"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pacienteInput.edadPaciente"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "a4746eb0-42ad-4f6b-a3c8-4a903c9e5057",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 6,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 6
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Direccion Paciente"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pacienteInput.direccionPaciente"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "117f4281-281a-4b39-ac50-44fe9c6a6fcc",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    },
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 6,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 6
                       },
                       "propertyValues" : {
                         "showNow" : {
@@ -613,7 +237,7 @@
                         },
                         "readOnly" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -636,7 +260,7 @@
                         },
                         "labelHidden" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "showToday" : {
                           "type" : "constant",
@@ -664,20 +288,320 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.pacienteInput.fecha"
+                          "value" : "paciente.fecha"
                         },
                         "withTimeZone" : {
                           "type" : "constant",
                           "value" : true
+                        }
+                      },
+                      "reference" : "81e88260-f557-4054-94ee-55d042c4acdb",
+                      "hasValidationError" : false,
+                      "id" : "pbDateTimePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
                         },
-                        "allowHTML" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nombre Paciente"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.nombrePaciente"
+                        },
+                        "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "745b8bc2-46e1-447d-ae85-617c8973404a",
+                      "reference" : "62b12a96-715f-4048-94c4-2b142589f01f",
                       "hasValidationError" : false,
-                      "id" : "pbDateTimePicker",
+                      "id" : "pbInput",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Identificacion Paciente"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.identificacionPaciente"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "ea1a3438-8ea8-47a0-a3bb-c27a82f1866d",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Edad Paciente"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.edadPaciente"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "1d327260-df75-4e90-9bef-af34b976df55",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Direccion Paciente"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.direccionPaciente"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "36202a2e-387e-4114-9935-66609dd6f165",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
                       "description" : ""
                     }
                   ],
@@ -691,17 +615,97 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "cssClasses" : {
+                        "labelHidden" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : false
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Email Paciente"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.emailPaciente"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "cf3d1cb1-9eaa-45de-b4f2-c1dc7e882104",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
                         "disabled" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Paciente Critico"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "paciente.pacienteCritico"
                         },
                         "required" : {
                           "type" : "constant",
@@ -710,59 +714,12 @@
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Sintomas del paciente"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "placeholder" : {
-                          "type" : "interpolation"
-                        },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "Paro cardiorrespiratorio",
-                            "Hemorragia masiva",
-                            "Trauma grave",
-                            "Dolor abdominal intenso",
-                            "Apendicitis aguda",
-                            "Fracturas expuestas",
-                            "Fracturas sin compromisos",
-                            "Heridas no sangrantes",
-                            "Fiebre baja",
-                            "Infecciones leves",
-                            "Esguinces",
-                            "Resfriado común",
-                            "Consultas no urgentes",
-                            "Seguimientos"
-                          ]
-                        },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.pacienteInput.sintomas"
                         }
                       },
-                      "reference" : "90b9ce64-3091-4537-9ecb-59bf9c533306",
+                      "reference" : "59990692-ca34-43fe-a286-e653f0bd030f",
                       "hasValidationError" : false,
-                      "id" : "pbSelect"
+                      "id" : "pbCheckbox",
+                      "description" : ""
                     }
                   ]
                 ]
@@ -843,7 +800,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a0fb0d7f-8fa3-4de6-8573-a8dd05dafb2f",
+                "reference" : "143ada99-3c87-4822-a21c-82865b8cae3b",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -895,7 +852,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c58104e7-834e-4950-8e59-2cf018f5fe5f",
+                "reference" : "2ae37be9-bd9d-47ed-9d34-ad00a8d83e4a",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -914,22 +871,6 @@
       ],
       "exposed" : false
     },
-    "formInput" : {
-      "type" : "json",
-      "value" : [
-        "{\r",
-        "  \"pacienteInput\" : {\r",
-        "    \"nivelTriage\" : 0,\r",
-        "    \"nombrePaciente\" : \"\",\r",
-        "    \"edadPaciente\" : \"\",\r",
-        "    \"direccionPaciente\" : \"\",\r",
-        "    \"fecha\" : null,\r",
-        "    \"numeroDocumentoIdentificacion\" : 0\r",
-        "  }\r",
-        "}"
-      ],
-      "exposed" : false
-    },
     "submit_errors_list" : {
       "type" : "expression",
       "value" : [
@@ -945,11 +886,29 @@
       ],
       "exposed" : false
     },
+    "paciente" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.paciente_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "\tpacienteInput: $data.formInput.pacienteInput",
+        "if( $data.paciente ){",
+        "\treturn {",
+        "\t\t//map paciente variable to expected task contract input",
+        "\t\tpacienteInput: {",
+        "\t\t\tfecha: $data.paciente.fecha !== undefined ? $data.paciente.fecha : null,",
+        "\t\t\tnombrePaciente: $data.paciente.nombrePaciente !== undefined ? $data.paciente.nombrePaciente : null,",
+        "\t\t\tidentificacionPaciente: $data.paciente.identificacionPaciente !== undefined ? $data.paciente.identificacionPaciente : null,",
+        "\t\t\tedadPaciente: $data.paciente.edadPaciente !== undefined ? $data.paciente.edadPaciente : null,",
+        "\t\t\tdireccionPaciente: $data.paciente.direccionPaciente !== undefined ? $data.paciente.direccionPaciente : null,",
+        "\t\t\temailPaciente: $data.paciente.emailPaciente !== undefined ? $data.paciente.emailPaciente : null,",
+        "\t\t\tpacienteCritico: $data.paciente.pacienteCritico !== undefined ? $data.paciente.pacienteCritico : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -971,16 +930,16 @@
   },
   "assets" : [
     {
-      "id" : "8cef6545-f88c-466b-92f9-fbccf9c51343",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "0eb75af5-e19d-4bf2-b005-995e99022a5d",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "a46e61f1-a2c2-4bcf-8c91-83d8bff7a071",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "eefaf057-2444-489f-8b32-ad77c35f495d",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }

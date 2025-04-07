@@ -639,6 +639,37 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="triaje.curatio">
+      <firstName>Triaje</firstName>
+      <lastName>Curatio</lastName>
+      <personalData/>
+      <professionalData>
+        <email>triaje@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="adminitrativo.curatio">
+      <firstName>Administrativo</firstName>
+      <lastName>Curatio</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>administrativo@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="triaje2.curatio">
+      <firstName>Triaje2</firstName>
+      <lastName>Curatio</lastName>
+      <personalData/>
+      <professionalData>
+        <email>triaje2@curatio.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
@@ -672,6 +703,15 @@
     <role name="cirugia">
       <displayName>Cirugia</displayName>
       <description>Personal de cirug&#xed;a de la cl&#xed;nica</description>
+    </role>
+    <role name="triaje">
+      <displayName>Triaje</displayName>
+      <description>Personal que practica el triaje a los pacientes</description>
+    </role>
+    <role name="administrativo">
+      <displayName>Administrativo</displayName>
+      <description>Personal administrativo de la clinica&#xD;
+</description>
     </role>
   </roles>
   <groups>
@@ -850,7 +890,7 @@
     </membership>
     <membership>
       <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
+      <roleName>administrativo</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
@@ -897,6 +937,21 @@
     <membership>
       <userName>cirugia</userName>
       <roleName>cirugia</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>triaje.curatio</userName>
+      <roleName>triaje</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>adminitrativo.curatio</userName>
+      <roleName>administrativo</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>triaje2.curatio</userName>
+      <roleName>triaje</roleName>
       <groupName>acme</groupName>
     </membership>
   </memberships>
